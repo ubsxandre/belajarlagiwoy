@@ -1,0 +1,10 @@
+- pertama kali dijalankan adalah .env
+- env itu akan menjalankan server.py
+- di dalam server itu akan menjalankan seperti 'app' dll
+
+- library flask yang dipakai
+  1. pip install flask-sqlalchemy
+  2. pip install flask_mysqldb
+    - flask db init
+    - flask db migrate -m "membuat table user" contohnya
+  3. pip install flask-migrate
